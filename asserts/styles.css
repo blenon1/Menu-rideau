@@ -10,7 +10,7 @@ body {
 }
 
 .home {
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,4 +99,11 @@ nav a {
     display: block;
     margin: 10px 0;
     text-decoration: none;
+}
+
+.currrent-date {
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(92, 119, 207), rgb(171, 51, 252));
+    font-family: Quicksand, sans-serif;
+    color: #f1f1f1;
 }

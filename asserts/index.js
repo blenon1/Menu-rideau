@@ -8,3 +8,6 @@ burger.addEventListener("click", () => {
 burger.addEventListener("click", () => {
     navigation.classList.toggle("active")
 })
+
+const date = new Date();
+document.getElementById("js-date").innerHTML = date;
